@@ -24,7 +24,7 @@ import static org.mockito.Mockito.*;
 public class TodoListServiceImplTest {
 
     @InjectMocks
-    private TodoListService todoListService;
+    private TodoListServiceImpl todoListService;
 
     @Mock
     private TodoListRepository todoListRepository;
