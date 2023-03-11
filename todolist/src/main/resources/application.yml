@@ -12,3 +12,5 @@ spring:
   h2:
     console:
       enabled: true
+todolist:
+  cron-expression: '* 0/1 * * * *'
