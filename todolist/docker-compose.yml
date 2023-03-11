@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mitiganttask:
+    image: vitthal/mitiganttask
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/mitiganttask
+    ports:
+      - "8000:8000"
