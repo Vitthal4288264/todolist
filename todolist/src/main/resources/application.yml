@@ -13,4 +13,4 @@ spring:
     console:
       enabled: true
 todolist:
-  cron-expression: '* 0/1 * * * *'
+  cron-expression: '* 0/3 * * * *'
